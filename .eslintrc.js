@@ -18,7 +18,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     'space-before-function-paren': ['warn', 'always'],
     'comma-dangle': ['error', 'only-multiline'],
-    'semi': 'warn',
+    'semi': ['warn', 'never'],
   },
   'env': {
     'browser': true,
